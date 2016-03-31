@@ -1,0 +1,446 @@
+/* SF styles */
+body {
+    /*border: 1px solid red !important;*/
+    height:calc(100% - 10px) !important;
+}
+.hidden {display:none;}
+#sidebarCell {
+    padding: 0 !important;
+}
+.outer td.oRight {
+    padding: 0 !important;
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.main-container {
+    height: 100%;
+}
+aside { 
+    border-right: 1px solid #3E5680;
+    height: 100%;
+    max-width: 320px;
+    min-width: 200px;
+}
+#contentWrapper {
+    height:100%;
+}
+body .bodyDiv #bodyTable {
+    height: calc(100% - 0px) !important;
+}
+#bodyCell {
+    display: block;
+    height: calc(100% - 0px) !important;
+}
+.bodyDiv {
+    height: calc(100% - 150px);
+    display: block;
+    /*border: 1px solid lime;*/
+}
+/* Background Colors */
+.bkg-pink {
+    background-color:#ef7ead !important;
+}
+.bkg-green {
+    background-color:#37cf36 !important;
+}
+.bkg-purple {
+    background-color:#7f8de1 !important;
+}
+.bkg-orange {
+    background-color:#f88962 !important;
+}
+.bkg-grey {
+    background-color:#e0e5ee !important;
+}
+.bkg-white {
+    background-color:#ffffff !important;
+}
+.bkg-red {
+    background-color:#d4504c !important;
+}
+
+/* Text Colors */
+.pink {
+    color:#ef7ead !important;
+}
+.green {
+    color:#4bc076 !important;
+}
+.purple {
+    color:#7f8de1 !important;
+}
+.orange {
+    color:#f88962 !important;
+}
+
+/* Tree */
+.tree {
+    height: 100%;
+}
+
+/* ALIGN */
+.slds-left {
+    float: left !important;
+}
+.slds-right {
+    float: right !important;
+}
+
+.slds {
+    height: 100%;
+}
+.slds .slds-wrap {
+    height: 100%;
+}
+.slds-col {
+    /*height: 100%;*/
+}
+.left-menu {
+    margin-top: 30px;
+}
+/* SETTINGS SPECIFIC */
+.settings {
+    display: inline-block;
+    height: calc(100% - 0px);
+    width: 100%;
+}
+.settings aside {
+    /*float: left;*/
+}
+.settings nav {
+    height: 100%;
+    /*float: right;*/
+}
+.settings-wrapper {
+
+}
+
+/* Switch CSS */
+#enableSwitch .slds-grid .slds-text-align--right {
+    padding-right: 0px !important;
+}
+#enableSwitch .slds-grid .slds-text-align--right h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* */
+.left_col-container {
+    height: calc(100% - 0px);
+    position: absolute;
+    left: 0;
+}
+/* TREE */
+.slds-tree-container {
+    border-right: 1px solid #1797C0;
+    height: calc(100% - 56px) !important;
+}
+.search-container, .setting-title, 
+.slds-tree-container, .left_col-container {
+    max-width: 290px !important;
+    min-width: 290px !important;
+}
+.slds-tabs--default__nav  {
+    width: auto !important;
+}
+.setting-title {
+    /*border-right: 1px solid #1797C0;*/
+    padding: 20px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3e5680+0,98a9c6+100 */
+    background: #18a8ce; /* Old browsers */
+    background: -moz-linear-gradient(left,  #45c1d1 0%, #18a8ce 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #45c1d1 0%,#18a8ce 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #45c1d1 0%,#18a8ce 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e5680', endColorstr='#98a9c6',GradientType=0 ); /* IE6-9 */
+    font-size: 20px;
+    height:71px;
+    text-align: center;
+}
+.setting-tabs {
+    height: 100%;
+    overflow: hidden;
+}
+/* SEARCH */
+.slds .slds-input {
+    background-color: white;
+    color: #16325c;
+    border: 1px solid #1da2ca;
+    border-radius: 4px;
+    width: 100%;
+    transition: border 0.1s linear, background-color 0.1s linear;
+    display: inline-block;
+    padding: 0 10px 0 12px;
+    line-height: 34px;
+    min-height: calc(34px + 2px);
+}
+.search-container {
+    border-right: 1px solid #1797C0;
+    padding: 9px;
+    background-color: #45c1d1;
+    height: 55px;
+    border-bottom: 1px solid #1797C0;
+}
+
+/* */
+.settings-menu-slider {
+    background-color: #18a8ce;
+    border-bottom: 1px solid #1797C0;
+    padding: 15px !important;
+    text-align: center;
+}
+.core_content-container {
+    height: calc(100% - 0px);
+    margin-left: 290px;
+}
+#core_content-container {
+    /*border: 2px solid red;*/
+}
+.settings-content-container {
+    /*border-top: 1px solid #98A9C6;*/
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    height: calc(100% - 70px);
+}
+.top-container {
+    height: 70px;
+}
+.tab-content-container {
+    /*border: 1px solid purple;*/
+    height:100%;
+}
+/* SLDS OVERRIDES */
+.slds .slds-tabs--default__link {
+    padding: 11px 25px 11px 20px !important;
+}
+.slds .slds-tabs--default__link {
+    height: 70px !important;
+}
+.slds .slds-tabs--default__nav {
+    background-color: #45c1d1 !important;
+}
+.slds-tabs--default__link {
+    font-size: larger;
+}
+.slds .slds-tabs--default__item.slds-active .slds-tabs--default__link {
+    background-color: #18a8ce;
+    border: none !important;
+    color: #16325c;
+}
+.slds .slds-tabs--default__link:focus {
+    color: #fff !important;
+    border-color: none !important;
+    box-shadow: none !important;
+}
+.slds .slds-tabs--default__link:hover {
+    text-decoration: none !important;
+    border: none !important;
+    color: #1c1c1c !important;
+}
+.slds .slds-tabs--default__link:focus {
+    color: #fff !important;
+}
+.slds .slds-tabs--default__link {
+    color: #fff !important;
+}
+.slds .slds-tabs--default__content {
+    position: relative;
+    padding: 0 !important;
+}
+.slds .slds-tabs--default__item + .slds-tabs--default__item {
+    margin-left: 0 !important;
+}
+.slds-container--fluid {
+    height:100%;
+}
+.slds .slds-section-title--divider {
+    color: #1c1c1c; 
+    background: #E0E3E5;
+}
+.slds .slds-form-element__label {
+    color: #1797C0;
+}
+.slds .slds-select {
+    color: #1797C0;
+    border: 1px solid #1797C0;
+}
+.slds .slds-select_container:after {
+    border-top: 5px solid #1797C0;
+    bottom: calc((34px / 2) - 6px);
+}
+.slds a {
+    color: #1797C0;
+}
+
+/* SCROLL */
+
+.accordion::-webkit-scrollbar-track,
+.slds-tree-container::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.accordion::-webkit-scrollbar,
+.slds-tree-container::-webkit-scrollbar {
+    width: 8px;
+    background-color: #F5F5F5;
+    padding-top: 20px;
+}
+
+.accordion::-webkit-scrollbar-thumb,
+.slds-tree-container::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #43bdcd;
+}
+
+/* ACCORDION */
+/*----- Accordion -----*/
+.accordion, .accordion * {
+    -webkit-box-sizing:border-box; 
+    -moz-box-sizing:border-box; 
+    box-sizing:border-box;
+}
+ 
+.accordion {
+    background-size: cover;
+    background-color: #ebeceb !important;
+    display: block;
+    height: calc(100% - 55px);
+    overflow-y: scroll;
+    position: absolute;
+    width: calc(100% - 290px);
+}
+ .pContent {
+    height: calc(100% - 0px);
+    display: block;
+ }
+/*----- Section Titles -----*/
+.accordion-section-title {
+    width:100%;
+    padding:15px;
+    display:inline-block;
+    background:#121720;
+    transition:all linear 0.15s;
+    color:#1c1c1c !important;
+}
+.accordion-section {
+    border-bottom: 1px solid #ccc;
+}
+.accordion-section-title.active, 
+.accordion-section-title:hover {
+    background:#e0e3e5;
+    /* Type */
+    text-decoration:none;
+}
+ 
+.accordion-section:last-child .accordion-section-title {
+    border-bottom:none;
+}
+ 
+/*----- Section Content -----*/
+.accordion-section-content {
+    background-color:#f2f3f8;
+    display:none;
+    height: calc(100% - 0px);
+}
+#setting-content-scrollable {
+    display: block;
+    max-height: calc(100% - 0px);
+}
+
+/* NEW TEST */
+html, body, #wrapper {
+    height: 100%;
+    overflow: hidden;
+}
+
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+.panel-group {
+  margin-bottom: 0;
+}
+
+.panel-body {
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+.panel-group .panel-heading+.panel-collapse .panel-body {
+  border-top: 0;
+}
+
+.panel {
+  border: 0;
+}
+
+
+.panel-group .panel {
+  margin-bottom: 0;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.panel-group .panel+.panel {
+  margin-top: 0;
+}
+
+.panel-heading {
+  padding: 10px 15px;
+  border-bottom: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+/* ACTIVE */
+.active {
+    display: block !important;
+}
+.slds-tree--default__item {
+    display: none;
+}
+
+.slds .slds-tabs--default__nav {
+    border-bottom: none !important;
+}
+
+/* ACCORDION */
+.accordion-setting-title--container {
+    display:block;
+    float:left;
+    padding: 10px;
+}
+.accordion-section span.switchery {
+    top: 25%;
+}
+.accordion-main-container {
+    height: calc(100% - 55px)!important;
+    display: inline-block;
+    /*border: 1px solid red;*/
+}
+.switchery-default {
+    display:none;
+}
+/* Scroll Handle */
+.flexcroll::-webkit-scrollbar-thumb {
+   /*  -webkit-border-radius: 10px; */
+    border-radius: 10px;
+    background: rgba(255,255,0,0.8); 
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); */ 
+}
+/* badge */
+.circle {
+    top: 0;
+    position: absolute;
+    margin: 10px 30px 0 -4px;
+    padding: 4px 7px !important;
+}
+.slds .slds-badge {
+    /*padding: 4px 7px;*/
+}
+.list-badges {
+    font-size: 8px !important;
+    color: white !important;
+    letter-spacing: 2px !important;
+}
