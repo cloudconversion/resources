@@ -22,10 +22,10 @@ $( document ).ready( function( ) {
 
 // Initialize Tabs
 $(document).ready(function() {
-    $('[data-aljs="tabs"]').tabs();
+    $('[data-ccjs="tabs"]').tabs();
 });
 
 // Initialize Tooltips
 $(document).ready(function() {
-   $('[data-aljs="tooltip"]').tooltip();
+   $('[data-ccjs="tooltip"]').tooltip();
 });
