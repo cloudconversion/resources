@@ -1,5 +1,8 @@
 // Initialize Tree		
 $( document ).ready( function( ) {
+
+    $.noConflict();
+
     $( '.tree li' ).each( function() {
         if( $( this ).children( 'ul' ).length > 0 ) {
             $( this ).addClass( 'parent' );     
@@ -17,15 +20,11 @@ $( document ).ready( function( ) {
             $( this ).children( 'ul' ).slideToggle( 'fast' );
         });
     });
- 
-});
 
-// Initialize Tabs
-$(document).ready(function() {
+    // Initialize Tabs
     $('[data-ccjs="tabs"]').tabs();
-});
 
-// Initialize Tooltips
-$(document).ready(function() {
-   $('[data-ccjs="tooltip"]').tooltip();
+    // Initialize Tooltips
+    $('[data-ccjs="tooltip"]').tooltip();
+
 });
