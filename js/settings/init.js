@@ -20,10 +20,7 @@ $( document ).ready( function( ) {
     });
 
     // Initialize Tabs
-    // $('[data-ccjs="tabs"]').tabs();
-    $('ul.slds-tabs--default__nav li').click(function(){
-        $('ul.slds-tree--default__nav li').removeClass('active');
-    });
+    $('[data-ccjs="tabs"]').tabs();
 
     // Initialize Tooltips
     $('[data-ccjs="tooltip"]').tooltip();
