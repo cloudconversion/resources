@@ -1,8 +1,6 @@
 // Initialize Tree		
 $( document ).ready( function( ) {
 
-    $ = jQuery.noConflict();
-
     $( '.tree li' ).each( function() {
         if( $( this ).children( 'ul' ).length > 0 ) {
             $( this ).addClass( 'parent' );     
