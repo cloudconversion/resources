@@ -1,4 +1,6 @@
 $(document).ready(function() {
+
+    $.noConflict(); 
 	
 	// SWITCH TOGGLE	
 	//var elem = document.querySelector('.js-switch');

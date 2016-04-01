@@ -1,4 +1,4 @@
-if ("undefined" == typeof jQuery) throw new Error("Cloud Conversion Lightning JS requires jQuery");
+$.noConflict(); if ("undefined" == typeof jQuery) throw new Error("Cloud Conversion Lightning JS requires jQuery");
 ! function(e) {
     "undefined" == typeof e.ccjs && (e.ccjs = {
         assetsLocation: "",
@@ -6,4 +6,4 @@ if ("undefined" == typeof jQuery) throw new Error("Cloud Conversion Lightning JS
     }, e.ccjsInit = function(n) {
         e.ccjs = n
     })
-}(jQuery);
+}(jQuery);	
