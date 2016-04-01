@@ -22,7 +22,10 @@ $( document ).ready( function( ) {
     });
 
     // Initialize Tabs
-    $('[data-ccjs="tabs"]').tabs();
+    // $('[data-ccjs="tabs"]').tabs();
+    $('ul.slds-tabs--default__nav li').click(function(){
+        $('ul.slds-tree--default__nav li').removeClass('active');
+    });
 
     // Initialize Tooltips
     $('[data-ccjs="tooltip"]').tooltip();
