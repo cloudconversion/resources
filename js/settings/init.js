@@ -1,30 +1,30 @@
 // Initialize Tree		
 $( document ).ready( function( ) {
 
-    $.noConflict();
+    j$ = jQuery.noConflict();
 
-    $( '.tree li' ).each( function() {
-        if( $( this ).children( 'ul' ).length > 0 ) {
-            $( this ).addClass( 'parent' );     
+    j$( '.tree li' ).each( function() {
+        if( j$( this ).children( 'ul' ).length > 0 ) {
+            j$( this ).addClass( 'parent' );     
         }
     });
  
-    $( '.tree li.parent > a' ).click( function( ) {
-        $( this ).parent().toggleClass( 'active' );
-        $( this ).parent().children( 'ul' ).slideToggle( 'fast' );
+    j$( '.tree li.parent > a' ).click( function( ) {
+        j$( this ).parent().toggleClass( 'active' );
+        j$( this ).parent().children( 'ul' ).slideToggle( 'fast' );
     });
  
-    $( '#all' ).click( function() {		 
-        $( '.tree li' ).each( function() {
-            $( this ).toggleClass( 'active' );
-            $( this ).children( 'ul' ).slideToggle( 'fast' );
+    j$( '#all' ).click( function() {		 
+        j$( '.tree li' ).each( function() {
+            j$( this ).toggleClass( 'active' );
+            j$( this ).children( 'ul' ).slideToggle( 'fast' );
         });
     });
 
     // Initialize Tabs
-    $('[data-ccjs="tabs"]').tabs();
+    j$('[data-ccjs="tabs"]').tabs();
 
     // Initialize Tooltips
-    $('[data-ccjs="tooltip"]').tooltip();
+    j$('[data-ccjs="tooltip"]').tooltip();
 
 });
