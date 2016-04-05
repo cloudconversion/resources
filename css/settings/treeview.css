@@ -32,7 +32,7 @@ a{
     padding: 10px 0 10px 0 !important;
 }
 .tree li.parent > a {
-    padding: 0 0 0 28px;
+    padding: 0 0 0 15px;
 }
 .tree li.parent > a:before {
     /*background-image: url("../images/plus_minus_icons.png");*/
